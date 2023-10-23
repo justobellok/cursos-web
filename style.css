@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+
+.nav-bar{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.enlaces{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    font-weight: bold;
+    transition: 2.5s;
+}
+
+.enlaces a:hover{
+    border-bottom: 1px solid black;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn button{
+  padding: 10px 25px;
+  cursor: pointer;
+  background: none;
+  border: 1px solid black;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.btn button:active{
+    transform: scale(0.9);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 6px;
+}
+
+.info{
+    text-align: center;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+    
+}
+
+.title span{
+    border-bottom: 2px solid black;
+}
+
+article button{
+    padding: 15px 35px;
+    background: none;
+    border: 1px solid black;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+    border-radius: 3px;
+}
+
+article button:active{
+    transform: scale(0.9);
+}
+
+article p{
+font-weight: bold;
+margin: 6px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 6px;
+   
+}
+
+section{
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+section button{
+    padding: 15px 35px;
+    background: none;
+    border: 1px solid black;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+    border-radius: 3px;
+}
+
+.footer{
+    text-align: center;
+    border: 1px solid black;
+    margin: 25px 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 10px;
+}
+
+input{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    outline: none;
+}
+
+.campos button{
+    padding: 15px 35px;
+    background: none;
+    border: 1px solid black;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+    border-radius: 3px;
+}
